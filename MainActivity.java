@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             boolean connected = false;
             try
             {
-                SocketHandler.setSocket(new Socket("192.168.14.122", 12345));
+                SocketHandler.setSocket(new Socket("(INSERT IP)", 12345));
                 connected = true;
             }
             catch (IOException e)
